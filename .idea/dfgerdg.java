@@ -1,4 +1,4 @@
-public class Hello World(){
+@public class Hello World(){
     public static void main(String [] args) {
         Sustem.out.println("Hello World!");
     }
