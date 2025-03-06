@@ -1,5 +1,11 @@
 @public class HelloWorld(){
     public static void main(String [] args) {
-        Sustem.out.println("Hello World!");
+        Greeting gr = new Greeting();
+        gr.greetItalian();
     }
+    public void greetItalian()
+    {
+        System.out.println("Ciao");
+    }
+
 }
