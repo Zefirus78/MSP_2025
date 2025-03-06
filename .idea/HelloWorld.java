@@ -11,5 +11,12 @@ public class HelloWorld {
             System.out.println("World Hello");
             System.out.println("Hello World");
         }
+        Greeting gr = new Greeting();
+        gr.greetItalian();
+        
+        public void greetItalian()
+    {
+        System.out.println("Ciao");
     }
-}
+    }
+    }
